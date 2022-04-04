@@ -5,7 +5,9 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello My friend");
+            string sayHello = "Hello Hello World!";
+            sayHello = sayHello.Replace("Hello", "Dude");
+            Console.WriteLine(sayHello);
         }
     }
 }
