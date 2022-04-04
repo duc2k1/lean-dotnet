@@ -5,9 +5,11 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            string sayHello = "Hello Hello World!";
-            sayHello = sayHello.Replace("Hello", "Dude");
-            Console.WriteLine(sayHello);
+            Console.WriteLine("Nhap name:");
+            // user can input name or not
+            string name = Console.ReadLine() ?? "";
+            name = name.Trim();
+            Console.WriteLine($"Day la name: {name}");
         }
     }
 }
