@@ -5,11 +5,11 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nhap name:");
-            // user can input name or not
-            string name = Console.ReadLine() ?? "";
-            name = name.Trim();
-            Console.WriteLine($"Day la name: {name}");
+            Console.WriteLine("test");
+            if (true)
+            {
+                System.Console.WriteLine("hello world");
+            }
         }
     }
 }
