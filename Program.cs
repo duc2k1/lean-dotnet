@@ -1,5 +1,4 @@
-﻿using System;
-namespace MyApp
+﻿namespace MyApp
 {
     class Program
     {
@@ -8,7 +7,7 @@ namespace MyApp
             Console.WriteLine("test");
             if (true)
             {
-                System.Console.WriteLine("hello world");
+                Console.WriteLine("hello world");
             }
         }
     }
