@@ -4,11 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
-            if (true)
+            int sum = 0;
+            for (int i = 1; i <= 20; i++)
             {
-                Console.WriteLine("hello world");
+                if (i % 3 == 0)
+                {
+                    sum += i;
+                }
             }
+            System.Console.WriteLine($"The sum is {sum}");
         }
     }
 }
