@@ -4,26 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Cat cat = new Cat();
-            cat.Info();
+            Animal dog = new Dog();
+            dog.Speaking();
+
         }
-        class Cat : Animal
+        class Dog : Animal
         {
-            public Cat()
+            public override void Speaking()
             {
-                Weight = 100;
-                Height = 2;
+                System.Console.WriteLine("Dog speaking");
             }
         }
         class Animal
         {
-            protected double Weight;
-            protected double Height;
-            protected static int Leg;
-            public void Info()
+            public virtual void Speaking()
             {
-                System.Console.WriteLine($"Weight {Weight}");
-                System.Console.WriteLine($"Heigth {Height}");
+                System.Console.WriteLine("Animal speaking");
             }
         }
 
