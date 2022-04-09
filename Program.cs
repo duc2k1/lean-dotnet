@@ -4,15 +4,17 @@
     {
         static void Main(string[] args)
         {
-            int sum = 0;
-            for (int i = 1; i <= 20; i++)
+            Console.WriteLine("HELLO");
+        }
+        class Animanl
+        {
+            protected double Weight;
+            protected double Height;
+            protected static int Leg;
+            public void Info()
             {
-                if (i % 3 == 0)
-                {
-                    sum += i;
-                }
+                System.Console.WriteLine($"Weight {Weight}");
             }
-            Console.WriteLine($"The sum is {sum}");
         }
     }
 }
