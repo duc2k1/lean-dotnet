@@ -6,7 +6,6 @@
         {
             Animal dog = new Dog();
             dog.Speaking();
-
         }
         class Dog : Animal
         {
@@ -19,6 +18,5 @@
         {
             public abstract void Speaking();
         }
-
     }
 }
