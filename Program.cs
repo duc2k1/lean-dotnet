@@ -4,9 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO");
+            Cat cat = new Cat();
+            cat.Info();
         }
-        class Animanl
+        class Cat : Animal
+        {
+            public Cat()
+            {
+                Weight = 100;
+                Height = 2;
+            }
+        }
+        class Animal
         {
             protected double Weight;
             protected double Height;
@@ -14,7 +23,9 @@
             public void Info()
             {
                 System.Console.WriteLine($"Weight {Weight}");
+                System.Console.WriteLine($"Heigth {Height}");
             }
         }
+
     }
 }
