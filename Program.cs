@@ -12,7 +12,7 @@
                     sum += i;
                 }
             }
-            System.Console.WriteLine($"The sum is {sum}");
+            Console.WriteLine($"The sum is {sum}");
         }
     }
 }
