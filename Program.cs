@@ -15,12 +15,9 @@
                 System.Console.WriteLine("Dog speaking");
             }
         }
-        class Animal
+        abstract class Animal
         {
-            public virtual void Speaking()
-            {
-                System.Console.WriteLine("Animal speaking");
-            }
+            public abstract void Speaking();
         }
 
     }
